@@ -4,7 +4,12 @@ namespace ECommerce.Controllers
 {
 	public class OrderController : Controller
 	{
-		public IActionResult Index()
+		public IActionResult Create()
+		{
+			return View();
+		}
+
+		public IActionResult Edit()
 		{
 			return View();
 		}

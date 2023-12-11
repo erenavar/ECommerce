@@ -4,7 +4,12 @@ namespace Admin.Controllers
 {
 	public class UserController : Controller
 	{
-		public IActionResult Index()
+		public IActionResult List()
+		{
+			return View();
+		}
+
+		public IActionResult Approve()
 		{
 			return View();
 		}

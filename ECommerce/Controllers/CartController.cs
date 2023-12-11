@@ -4,7 +4,12 @@ namespace ECommerce.Controllers
 {
 	public class CartController : Controller
 	{
-		public IActionResult Index()
+		public IActionResult AddProduct()
+		{
+			return View();
+		}
+
+		public IActionResult Edit()
 		{
 			return View();
 		}
