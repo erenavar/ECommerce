@@ -4,9 +4,9 @@ namespace Admin.Controllers
 {
 	public class ProductController : Controller
 	{
-		public IActionResult Index()
+		public IActionResult Delete()
 		{
-			return Delete();
+			return View();
 		}
 	}
 }
